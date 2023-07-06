@@ -1,0 +1,5 @@
+{
+    "input_string": "I am doing great today",
+    "word_to_replace": "great",
+    "replacement_word": "excellent"
+  }
