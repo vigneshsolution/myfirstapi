@@ -10,9 +10,14 @@ https://w9b0z71aq7.execute-api.eu-west-1.amazonaws.com/dev/testing
 
 - Note: Only the POST method is allowed for this API endpoint. Ensure that you use the correct method while making the request.
 
-# Request Payload:
+# Request Payload
 The Lambda function expects a JSON payload with the following keys:
 
 - `input_string` (string): The original string that needs to be modified.
 - `word_to_replace` (string): The word that should be replaced within the input string.
 - `replacement_word` (string): The word that will replace the `word_to_replace` within the input string.
+
+# Testing API
+This API can be tested using CURL, Postman etc.
+
+- `eg` curl -X POST https://w9b0z71aq7.execute-api.eu-west-1.amazonaws.com/dev/testing -H 'Content-Type: application/json' -d "payload"
